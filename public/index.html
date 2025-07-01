@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Management - Jyoti Chaudhary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Jyoti Admin</h2>
+      <ul>
+        <li>Dashboard</li>
+        <li>Messages</li>
+        <li>Jobs</li>
+        <li>Candidates</li>
+        <li>Resumes</li>
+        <li class="active">Employee Management</li>
+        <li>Leave Management</li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <div class="topbar">
+        <button class="btn-primary">All Candidates ⬇</button>
+        <input type="text" id="search" placeholder="Search by name..." />
+        <button class="btn-export">Export ⬇</button>
+      </div>
+
+      <h2>Dashboard / Employee Management</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="user-table-body">
+          <!-- Filled by JS -->
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

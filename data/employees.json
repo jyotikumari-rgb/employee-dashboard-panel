@@ -1,0 +1,8 @@
+
+[
+  { "name": "Ankit Raj", "email": "ankit@example.com", "role": "Frontend Developer", "status": "Active" },
+  { "name": "Pooja Mehta", "email": "pooja@example.com", "role": "Backend Developer", "status": "Inactive" },
+  { "name": "Ravi Thakur", "email": "ravi@example.com", "role": "QA Analyst", "status": "Active" },
+  { "name": "Sneha Kapoor", "email": "sneha@example.com", "role": "UI Designer", "status": "Active" },
+  { "name": "Yash Sharma", "email": "yash@example.com", "role": "System Admin", "status": "Inactive" }
+]
